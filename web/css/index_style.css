@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    display: inline-block;
+    border: 2px solid #ba5555;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: #ba5555;
+    height: 50px;
+    width: 150px;
+    outline: none;
+}
+.btn:hover {
+    color: #ff0000;
+    border-color: #ff0000;
+    cursor: pointer;
+}
+
+#header{
+    display: flex;
+    border: 1px solid;
+
+    width: 100%;
+    height: 100px;
+}
+
+#header h1{
+    width: 100%;
+    height: 50px;
+
+    text-align: center;
+}
+
+#control{
+    display: flex;
+    border: 1px solid;
+
+    width: 100%;
+    height: 50px;
+
+    flex-direction: row;
+}
+
+#list{
+    display: flex;
+    border: 1px solid;
+
+    width: 100%;
+    height: 400px;
+
+    flex-direction: column;
+}
+
+#list h2{
+    width: 100%;
+    height: 30px;
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+.question_list{
+    display: flex;
+
+    width: 100%;
+    height: 50px;
+
+    margin: 0 auto;
+
+    border: 1px solid;
+}
+
+#list a{
+    width: 100%;
+    height: 50px;
+
+    text-align: left;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+#list a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#footer{
+    display: flex;
+    border: 1px solid;
+
+    width: 100%;
+    height: 200px;
+}
