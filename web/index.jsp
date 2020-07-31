@@ -42,7 +42,7 @@
 <script>
   function goto_manager() {
     // window.location.href="/questionnaire_war_exploded/login/"
-    window.location="questionnaire.jsp"
+    window.location="manager_login.jsp"
   }
 
   function goto_question() {
