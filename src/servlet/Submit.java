@@ -23,7 +23,13 @@ public class Submit extends HttpServlet {
         response.setCharacterEncoding("utf-8");
 
         //获取id
-        String id="1";
+        QuestionnaireDaoImpl questionnaireDao_1=new QuestionnaireDaoImpl();
+        String id= null;
+        try {
+            id = String.valueOf(questionnaireDao_1.findAll().size()+1);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
 
         //获取题目
         String title="honesty";
