@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>主页</title>
     <link type="text/css" rel="stylesheet" href="css/index_style.css">
   </head>
   <body>
